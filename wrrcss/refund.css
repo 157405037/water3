@@ -1,0 +1,216 @@
+@import "base.css";
+html{
+    font-size: 100px;
+}
+body{
+    font-size: 16px;
+    background: #ffffff;
+}
+@media screen and (max-width:320px ) {
+    html{
+        font-size:42.66667px;
+    }
+}
+@media screen and (max-width:360px ) {
+    html{
+        font-size:48px;
+    }
+}
+@media screen and (max-width:375px ) {
+    html{
+        font-size:50px;
+    }
+}
+@media screen and (max-width:412px ) {
+    html{
+        font-size:54.93333px;
+    }
+}
+@media screen and (max-width:414px ) {
+    html{
+        font-size: 55.2px;
+
+    }
+}
+header{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color:#4ebbfe;
+    font-size:0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13);
+}
+header .left{
+    float: left;
+    width: 0.25rem;
+    height: 0.42rem;
+    color:rgb(54,168,254) ;
+}
+header div span{
+    float: left;
+    display: block;
+    color: rgb(78,187,254);
+    font-size: 0.3rem;
+    margin-left: 2rem;
+}
+.xiangqing{
+    margin: 0.52rem 0.24rem 0.64rem 0.24rem;
+    height: 3.01rem;
+    border-bottom: solid 0.01rem #f1f4f5 ;
+}
+.xiangqing .pict{
+    width: 1.74rem;
+    height: 1.74rem;
+    float: left;
+}
+.xiangqing .pict .img{
+    width: 1.74rem;
+    height: 1.74rem;
+}
+.xiangqing .jieshao{
+    float: left;
+    margin-left: 0.27rem;
+    float: left;
+}
+.xiangqing .jieshao h1{
+    width: 2.15rem;
+    height: 0.28rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 0.23rem;
+}
+.xiangqing .jieshao span{
+    width: 1.71rem;
+    height: 0.18rem;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #36a8fe;
+    float: left;
+    margin-bottom: 0.16rem;
+}
+.xiangqing .jieshao p{
+    width: 2.53rem;
+    height: 0.26rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    float: left;
+    margin-bottom: 0.2rem;
+}
+.xiangqing .jieshao i{
+    width: 0.85rem;
+    height: 0.29rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0rem;
+    color: #8a8c8d;
+    float: left;
+}
+.xiangqing .jieshao .circle{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    float: left;
+    margin-top: 0.15rem;
+    margin-right: 0.1rem;
+}
+.xiangqing .jieshao .dian{
+   overflow: hidden;
+}
+.xiangqing .pay_money p{
+    width: 1.83rem;
+    height: 0.24rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #fbb548;
+    margin-top: 0.49rem;
+    margin-left: 4.5rem;
+}
+.xiangqing .pay_money .circle1{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    border-radius: 0.03rem;
+    float: left;
+    margin-top: 0.15rem;
+    margin-left: 4.35rem;
+}
+.onlyrefund{
+    margin: 0.52rem 0.24rem 0.64rem 0.24rem;
+}
+.onlyrefund .title{
+    overflow: hidden;
+    margin-bottom:0.1rem ;
+}
+
+.onlyrefund .title .hengxian1 {
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    float: left;
+    margin-top: 0.15rem;
+
+}
+.onlyrefund .title .headline1{
+    width: 1.2rem;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #44d98a;
+    float: left;
+}
+.onlyrefund .yuanyin p{
+    width: 5.24rem;
+    height: 0.23rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01px;
+    color: #000000;
+    opacity: 0.3;
+}
+.onlyrefund .title .hengxian {
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0rem rgba(68, 181, 255, 0.43);
+    float: left;
+    margin-top: 0.15rem;
+}
+.onlyrefund .title .headline{
+    width: 0.84rem;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.02rem;
+    color: #41b2fc;
+    float: left;
+}

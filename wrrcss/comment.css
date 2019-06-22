@@ -1,0 +1,278 @@
+@import "base.css";
+html{
+    font-size: 100px;
+}
+body{
+    font-size: 16px;
+    background: #ffffff;
+}
+@media screen and (max-width:320px ) {
+    html{
+        font-size:42.66667px;
+    }
+}
+@media screen and (max-width:360px ) {
+    html{
+        font-size:48px;
+    }
+}
+@media screen and (max-width:375px ) {
+    html{
+        font-size:50px;
+    }
+}
+@media screen and (max-width:412px ) {
+    html{
+        font-size:54.93333px;
+    }
+}
+@media screen and (max-width:414px ) {
+    html{
+        font-size: 55.2px;
+
+    }
+}
+header{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color:#4ebbfe;
+    font-size:0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41,167,255,0.13);
+}
+header .left{
+    float: left;
+    width: 0.25rem;
+    height: 0.42rem;
+    color:rgb(54,168,254) ;
+}
+header div span{
+    float: left;
+    display: block;
+    color: rgb(78,187,254);
+    font-size: 0.3rem;
+    margin-left: 2.28rem;
+}
+.desequal{
+    padding: 0.29rem 0.22rem 0 0.22rem;
+}
+.desequal .dian{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    float: left;
+    margin-top: 0.19rem;
+}
+.desequal p{
+    width: 1rem;
+    height: 0.23rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    float: left;
+    margin-left: 0.08rem;
+}
+.desequal .pict{
+    width: 2.5rem;
+    height: 0.3rem;
+    float: left;
+    margin-left: 0.43rem;
+    position: relative;
+}
+.desequal .pict div{
+    width: 2.5rem;
+    /*1.28 0.22*/
+    height: 0.3rem;
+    position: absolute;
+    left: 0;
+    top: 0.08rem;
+    overflow: hidden;
+}
+.desequal .pict div img{
+    width: 2.5rem;
+    height: 0.3rem;
+}
+.desequal span{
+    width: 0.72rem;
+    height: 0.23rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.23rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+     float: right;
+    color: #fbb548;
+}
+.comment{
+    width: 6.4rem;
+    height: 2.6rem;
+    border-radius: 0.1rem;
+    margin-top: 0.6rem;
+    margin-left: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 0.08rem;
+    opacity: 0.5;
+    position: relative;
+    box-shadow:4px 4px 5px 2px #f5f7f8;
+
+}
+.comment p{
+    width: 4.2rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.21rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.7;
+    margin-left: 0.08rem;
+    margin-top: 0.14rem;
+}
+.comment span{
+    width: 4.2rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.21rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.7;
+}
+.picture img{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-top: 0.16rem;
+}
+.add{
+    width: 0.92rem;
+    height: 0.22rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.34rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.3;
+    margin-left: 0.32rem;
+}
+.hidden{
+    padding: 0 0.2rem;
+    margin-top: 0.4rem;
+    overflow: hidden;
+}
+.hidden .circle{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 0.12rem;
+    border: solid 0.02rem #36a8fe;
+    float: left;
+    margin-top: 0.06rem;
+}
+.hidden p{
+    width: 0.46rem;
+    height: 0.21rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.22rem;
+    line-height: 0.34rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+    float: left;
+    margin-left: 0.13rem;
+}
+.hidden span{
+    width: 2.96rem;
+    height: 0.22rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.21rem;
+    line-height: 0.34rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+    float: right;
+}
+.shopcomment{
+    padding: 0.29rem 0.22rem 0 0.22rem;
+   overflow: hidden;
+}
+.shopcomment .dian{
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+rgba(68, 181, 255, 0.43);
+    border-radius: 0.03rem;
+    float: left;
+    margin-top: 0.19rem;
+}
+.shopcomment p{
+    width: 1rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.23rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    float: left;
+    margin-left: 0.08rem;
+}
+.comment1{
+    margin-left: 0.15rem;
+    margin-top: 0.2rem;
+    padding: 0 0.22rem;
+    height: 0.4rem;
+}
+.comment1 p{
+    width: 0.98rem;
+    height: 0.23rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.23rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+    float: left;
+}
+.comment1 .pict{
+    width: 2.5rem;
+    height: 0.3rem;
+    float: left;
+    margin-left: 0.43rem;
+    position: relative;
+}
+.comment1 .pict div{
+    width: 2.5rem;
+    /*1.28 0.22*/
+    height: 0.3rem;
+    position: absolute;
+    left: 0;
+    top: 0.08rem;
+    overflow: hidden;
+}
+.comment1 .pict div img{
+    width: 2.5rem;
+    height: 0.3rem;
+}
+.comment1 span{
+    width: 0.73rem;
+    height: 0.23rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 0.23rem;
+    line-height: 0.4rem;
+    letter-spacing:0.01rem;
+    color: #fbb548;
+   float: right;
+}
+.fabu{
+    width: 3.8rem;
+    height: 0.85rem;
+    margin-left: 1.4rem;
+    margin-top: 1.75rem;
+}
+
+
+
+
+
+
